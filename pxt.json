@@ -1,0 +1,26 @@
+{
+    "name": "Klassenraumklima",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "pxt-dht20": "github:CalliTGS3/pxt-dht20#3a30a3407ed5d32d610874409a0b9c131feb0474",
+        "pxt-calliope-sparkfunqwiicopenlog": "github:CalliTGS3/pxt-calliope-sparkfunQwiicOpenLog#5b6c324e252240c7cbcb56f977adfd6ed725b14a",
+        "SCD30": "github:CalliTGS3/pxt-SCD30#v0.9.0"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.29",
+        "targetId": "calliopemini"
+    },
+    "supportedTargets": [
+        "calliopemini"
+    ],
+    "preferredEditor": "blocksprj"
+}
