@@ -27,7 +27,7 @@ basic.forever(function () {
     Qwiic_Openlog.writeNumber(CO2)
     Qwiic_Openlog.writeLine("")
     Geruch = pins.analogReadPin(AnalogPin.C16)
-    Qwiic_Openlog.writeNumber(CO2)
+    Qwiic_Openlog.writeNumber(Geruch)
     Qwiic_Openlog.writeLine("")
     basic.pause(1000)
 })
